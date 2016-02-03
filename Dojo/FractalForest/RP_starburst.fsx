@@ -3,7 +3,7 @@ open System.Drawing
 open System.Windows.Forms
 
 // Create a form to display the graphics
-let width, height = 700, 700         
+let width, height = 1000, 850
 let form = new Form(Width = width, Height = height)
 let box = new PictureBox(BackColor = Color.White, Dock = DockStyle.Fill)
 let image = new Bitmap(width, height)
@@ -52,7 +52,7 @@ let rec anglefac x y angle length width =
     let newangle = angle + 30.0
     let newx = x + 1.0
     let newy = y + 1.0
-    if newangle <1440.0 && newx <700.0 && newy<700.0 then         
+    if newangle <1440.0 && newx <1000.0 && newy<850.0 then         
         draw newx newy newangle length width
         let newx2 = x + 5.0
         let newy2 = y + 5.0

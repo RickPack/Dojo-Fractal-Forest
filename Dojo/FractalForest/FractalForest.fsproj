@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Script.fsx" />
+    <None Include="RP_starburst.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
